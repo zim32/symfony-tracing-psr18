@@ -1,7 +1,7 @@
 {
   "name": "zim32/symfony-tracing-psr18",
   "type": "symfony-bundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Symfony OpenTelemetry integration for PSR18 http client",
   "keywords": ["opentelemetry", "tracing", "bundle", "symfony", "psr18", "http"],
   "authors": [
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "php": ">=8.0",
+    "php": ">=8.1",
     "zim32/symfony-tracing-core": "*",
     "psr/http-client": "1.*",
     "symfony/dependency-injection": "7.1.* | 6.4.*",
